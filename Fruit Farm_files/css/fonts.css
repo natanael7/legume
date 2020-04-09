@@ -52,7 +52,7 @@
   font-family: fl-bigmug-line;
   src: url(../fonts/fl-bigmug-line.eot);
   src: url(../fonts/fl-bigmug-line.eot#iefix) format("embedded-opentype"),
-    url(fl-bigmug-line.woff) format("woff"),
+    url(../fonts/fl-bigmug-line.woff) format("woff"),
     url(../fonts/fl-bigmug-line.ttf) format("truetype"),
     url(../fonts/fl-bigmug-line.svg) format("svg");
   font-weight: 400;
