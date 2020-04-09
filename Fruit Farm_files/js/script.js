@@ -40,7 +40,7 @@
             radio: $('input[type="radio"]'),
             rdRange: $('.rd-range'),
             radioPanel: $('.radio-panel .radio-inline'),
-            swiper: document.querySelectorAll('.swiper-container'),
+            // swiper: document.querySelectorAll('.swiper-container'),
             selectFilter: $('select'),
             slick: $('.slick-slider'),
             stepper: $('input[type="number"]'),
