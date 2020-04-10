@@ -5991,7 +5991,7 @@ font.wnd-font-size-200{
     }
     .layout-01 .section-inner{
         max-width:70.625rem;
-        padding:2.5rem 1.25rem
+        padding:1rem 1.25rem
     }
     @supports (padding:max(0px)){
         .layout-01 .section-inner{
