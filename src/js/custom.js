@@ -1,4 +1,4 @@
-$("#open").click(function () {
+$(".button").click(function () {
   $("#myForm").fadeIn();
   $("html body").addClass("locked");
   $("#overlay").fadeIn();

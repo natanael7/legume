@@ -1,3 +1,9 @@
-.s_big_prices{
+.s_big_prices {
   padding-top: 2rem;
+}
+.button {
+  color: white !important;
+}
+.s_header{
+  padding-top: 100px;
 }
