@@ -11850,7 +11850,7 @@ font.wnd-font-size-200{
 }
 .layout-01 .section-inner{
     width:100%;
-    padding:1.25rem 0;
+    padding:1.1875rem 0;
     margin:0 auto;
     position:relative
 }
@@ -12306,7 +12306,7 @@ font.wnd-font-size-200{
 }
 @media screen and (min-width:30em){
     .layout-01 .section-inner{
-        padding:1.5625rem 0
+        padding:1.2rem 0
     }
     @supports (padding:max(0px)){
         .layout-01 .section-inner{
@@ -12717,7 +12717,7 @@ font.wnd-font-size-200{
         text-align:center
     }
     .layout-01 .section-inner{
-        padding:2.1875rem .3125rem
+        padding:1rem .3125rem
     }
     @supports (padding:max(0px)){
         .layout-01 .section-inner{
@@ -13612,38 +13612,7 @@ font.wnd-font-size-200{
         margin:0 auto!important
     }
 }
-@media screen and (max-width:47.9375em){
-    .pr>div>.image-block.wnd-type-icon,.pr>div>.image.wnd-type-icon{
-        width:25%;
-        margin:0 auto!important
-    }
-    .content .column-content{
-        width:100%!important;
-        float:none;
-        padding:1.25rem 0
-    }
-    .content .column-content>div,.content .column-content>div>.text:only-child>.text-content:only-child:empty{
-        padding:0
-    }
-    .content .column-wrapper .column-content:first-child{
-        padding-top:0
-    }
-    .content .column-wrapper .column-content:last-child{
-        padding-bottom:0
-    }
-    .content .column-wrapper:first-child .column-content:first-child{
-        padding-top:0
-    }
-    .content .column-wrapper:last-child .column-content:last-child{
-        padding-bottom:0
-    }
-    .b-btn-l.b-btn-fixed{
-        min-width:100%
-    }
-    .footer-01.design-01 .section-inner{
-        text-align:center
-    }
-}
+
 @media screen and (max-width:64em){
     .pswp__preloader{
         position:relative;

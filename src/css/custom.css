@@ -15,3 +15,29 @@
 .logo:hover{
   color: #24cf5f;
 }
+.s_big_prices h3.wnd-align-center{
+  padding-top: 20px;
+  font-size: 15px;
+}
+@media (max-width: 27em){
+  header{
+    height: 100px !important
+  }
+}
+@media (max-width: 50em){
+  .wnd-font-size-180{
+    font-size: 100% !important
+  }
+  h1{
+    font-size: 130% !important
+  }
+}
+@media (max-width: 30em){
+  .image{
+    display: none !important
+  }
+  .text{
+    width: 100% !important
+  }
+
+}
