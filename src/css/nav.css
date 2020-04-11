@@ -1,4 +1,4 @@
-body {
+header body {
   width: 100%;
   height: 100%;
   padding: 0;
@@ -6,27 +6,22 @@ body {
   color: #000;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-li,
-ul {
+header li,
+header ul {
   list-style: none;
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-a {
+header a {
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
-h1 {
+header h1 {
   font-size: 38px;
   color: #000;
   font-weight: 400;
-}
-.content {
-  width: 80%;
-  max-width: 1300px;
-  margin: auto;
 }
 header {
   position: absolute;
@@ -770,9 +765,6 @@ header {
 @font-face {
   font-family: Bold2;
   src: url(fonts/Metropolis-Bold.woff2);
-}
-body {
-  font-family: Regular, "Segoe UI", Helvetica Neue, Helvetica, sans-serif;
 }
 header {
   position: fixed;

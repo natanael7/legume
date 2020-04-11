@@ -7,3 +7,11 @@
 .s_header{
   padding-top: 100px;
 }
+.ph-menu-icon{
+  margin-top: 0;
+  font-size: 15px !important;
+  padding: 0px 10px;
+}
+.logo:hover{
+  color: #24cf5f;
+}
