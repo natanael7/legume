@@ -567,7 +567,6 @@ a[href*="tel"] {
   background: linear-gradient(to bottom, #fff669 0, #619f7b 100%);
   background-size: 100% auto;
   background-clip: text;
-  text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1061,7 +1060,6 @@ img {
   display: inline-block;
   font-weight: 400;
   font-style: normal;
-  speak: none;
   text-transform: none;
 }
 .icon-circle {
