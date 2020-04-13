@@ -1,12 +1,19 @@
+// $(".button").click(function () {
+//   $("#myForm").fadeIn();
+//   $("html body").addClass("locked");
+//   $("#overlay").fadeIn();
+// });
+// $(".button--close").click(function () {
+//   $("#myForm").fadeOut();
+//   $("html body").removeClass("locked");
+//   $("#overlay").fadeOut();
+// });
 $(".button").click(function () {
-  $("#myForm").fadeIn();
-  $("html body").addClass("locked");
+  $("#salad").fadeIn()
   $("#overlay").fadeIn();
 });
-$(".button--close").click(function () {
-  $("#myForm").fadeOut();
-  $("html body").removeClass("locked");
-  $("#overlay").fadeOut();
-});
-
-
+// $(".recipe-close").click(function () {
+//   $("#myForm").fadeOut();
+//   $("html body").removeClass("locked");
+//   $("#overlay").fadeOut();
+// });

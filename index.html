@@ -10,6 +10,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
   <link rel="stylesheet" href="./src/css/fonts.css">
   <link rel="stylesheet" href="./src/css/style.css">
@@ -20,9 +21,10 @@
   
   <link rel="stylesheet" href="./src/css/custom.css">
 
-  </head>
+</head>
 
   <body >
+
   <header style="top: 0px; box-shadow: rgb(220, 220, 220) 0px 2px 10px;" class="bg-color">
     <div class="header-content black-bg">
       <a href="tel:079727001" class="logo">
@@ -39,7 +41,6 @@
         style="visibility: hidden; animation-name: none;">COMANDĂ ACUM</a>
     </div>
   </header>
-
     
   <div class="page animated" style="animation-duration: 500ms;">
     <section class="s_header section-wrapper cf l-m cf l-w cf t-25 l l-01 layout-01 c-s-l wt-home b-btn-sq b-btn-s-l b-btn-dn b-btn-bw-1 img-d-n img-t-o img-h-z line-solid b-e-c b-e-ds lbox-d wnd-fe desktop safari l l-01 layout-01 c-s-l wt-home b-btn-sq b-btn-s-l b-btn-dn b-btn-bw-1 img-d-n img-t-o img-h-z line-solid b-e-c b-e-ds lbox-d wnd-fe desktop safari wnd-page cs-slate ac-none section-wrapper-content cf s section default-01 design-01 sc-w">
@@ -1041,7 +1042,7 @@
     </section>
       
     <section class="s_imagine section section-xxl bg-default">
-      <div class="container">
+      <div class="container salad_button">
         <h2 class="title-style-3 wow fadeScale" style="visibility: hidden; animation-name: none;">Imaginează-ți pe masa ta</h2>
         <div class="row row-lg row-30">
           <div class="col-sm-6 wow fadeInLeft" style="visibility: hidden; animation-name: none;">
@@ -1124,9 +1125,93 @@
         </div> <!-- END: .modal__container -->
       </div> <!-- END: .modal -->
     </section>
+    
+    <section class="recipes">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <div class="modal w3-container recipe" id="salad" style="display:none;">
+       <div class="card mb-3" id="salad">
+        <button type="button" class="button--transparent button--close">
+          <svg class="nc-icon glyph" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32">
+            <g>
+              <path fill="#ffffff" d="M1.293,15.293L11,5.586L12.414,7l-8,8H31v2H4.414l8,8L11,26.414l-9.707-9.707 C0.902,16.316,0.902,15.684,1.293,15.293z">
+              </path>
+            </g>
+          </svg>
+        </button>
+        <img
+          class="card-img-top"
+          src="./src/img/salata.jpg"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h6 class="info">Porții: 2</h6>
+          <h6 class="info">Timp de preparare: 10 minute</h6>
+          <h5 class="card-title">Ingrediente</h5>
+          <p class="card-text">
+            <ul>
+              <li>2 roșii</li>
+              <li>1 castravete</li>
+              <li>1 ceapă</li>
+              <li>1/2 de căpățână de salată verde</li>
+              <li>1/2 de lămâie / oțet</li>
+              <li>2 linguri de ulei de măsline</li>
+              <li>oregano</li>
+              <li>sare</li>
+              <li>piper</li>
+            </ul>
+          </p>
+          <h5 class="card-title">Mod de preparare</h5>
+          <ul>
+            <li>Spălăm salata verde, roșiile și castravetele.</li>
+            <li>Curățăm castravetele de coajă (sau, după preferințe îi putem lăsa și așa) și în tăiem cuburi sau rondele.</li>
+            <li>Curățăm ceapa de foițe și o tăiem solzișori.</li>
+            <li>Tăiem roșiile cuburi de mărime potrivită.</li>
+            <li>Rupem cu mâna sau tăiem salata verde, nu înainte de a o scurge bine de apă.</li>
+            <li>Punem toate legumele într-un castron încăpător, adăugăm condimentele, sucul de lămâie și uleiul.</li>
+            <li>Amestecăm bine totul și servim, fie ca atare, fie ca și garnitură lângă un fel principal cum ar fi o friptură. Ai și rețeta video mai jos!</li>
+          </ul>
+        </div>
+      </div>
+      
+      </div>
+      <div class="modal w3-container recipe" id="potatoes" style="display:none;">
+       <div class="card mb-3 ">
+        <img
+          class="card-img-top"
+          src="./src/img/cartofi.jpg"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h6 class="info">Timp de preparare: 30 minute</h6>
+          <h5 class="card-title">Ingrediente</h5>
+          <p class="card-text">
+            <ul>
+              <li>cartofi</li>
+              <li>ulei</li>
+              <li>sare</li>
+              <li>piper</li>
+            </ul>
+          </p>
+          <h5 class="card-title">Mod de preparare</h5>
+          <ul>
+            <li>Spălăm și curățăm cartofii</li>
+            <li>Tăiem cartofii în stilul preferate, rondele, pai sau wedges</li>
+            <li>Lăsăm cartofii pentru minim o oră în apă rece, această parte elimină amidonul, cu cât râmâne mai puțin amidon, cu atât sunt mai crocanți.</li>
+            <li>Uscăm bine cartofii cu noște șervețele de hârtie, și încingem bine uleiul</li>
+            <li>Prăjim cartofii 10-15 minute la foc mediu, până devin aurii și crocanți.</li>
+            <li>Oprim focul și servim cartofii, adăugând sare și piper după gust</li>
+          </ul>
+        </div>
+      </div>  
+      
+      </div>
+    </section>
+
   <div id="overlay"></div>
 
   </div>
+
+
   <script src="./src/js/custom.js"></script>
   <script src="./src/js/core.min.js"></script>
   <script src="./src/js/script.js"></script>
