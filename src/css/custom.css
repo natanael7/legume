@@ -52,7 +52,17 @@
 .advantage{
   width: 33.3%;
 }
-#nside{
+.page .animated{
+  animation-duration: 500ms;
+}
+.wd50{
+  width: 50%;
+}
+#wnd_ImageBlock_93637{
+  margin-left: 0; 
+  margin-right: 0;
+}
+#inside{
   display: none;
 }
 @media (max-width: 27em) {
