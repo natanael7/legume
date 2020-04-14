@@ -191,7 +191,7 @@
         </div>
       </div>
     </section>
-    
+
     <section
       class="s_advantages section-wrapper cf l-m cf l-w cf t-25 l l-01 layout-01 c-s-l wt-home b-btn-sq b-btn-s-l b-btn-dn b-btn-bw-1 img-d-n img-t-o img-h-z line-solid b-e-c b-e-ds lbox-d wnd-fe desktop safari l l-01 layout-01 c-s-l wt-home b-btn-sq b-btn-s-l b-btn-dn b-btn-bw-1 img-d-n img-t-o img-h-z line-solid b-e-c b-e-ds lbox-d wnd-fe desktop safari wnd-page cs-slate ac-none section-wrapper-content cf s section default-01 design-01 sc-w">
       <div class="section-inner">
@@ -1061,7 +1061,6 @@
     </section>
 
     <section class="form">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <div class="modal w3-container" id="myForm" style="display:none;">
         <div class="modal__container">
           <div class="modal__featured">
@@ -1082,27 +1081,27 @@
           <div class="modal__content">
             <h2>Detaliile Comenzii</h2>
 
-            <form>
+            <form name="submit-to-google-sheet">
               <ul class="form-list">
                 <li class="form-list__row">
                   <label>Produs</label>
-                  <input type="text" name="" required="" />
+                  <input type="text" name="product" required="" />
                 </li>
                 <li class="form-list__row">
                   <label>Cantitate</label>
-                  <input type="text" name="" required="" />
+                  <input type="text" name="qty" required="" />
                 </li>
                 <li class="form-list__row">
                   <label>Nume</label>
-                  <input type="text" name="" required="" />
+                  <input type="text" name="name" required="" />
                 </li>
                 <li class="form-list__row">
                   <label>Telefon</label>
-                  <input type="text" name="" required="" />
+                  <input type="text" name="phone" required="" />
                 </li>
                 <li class="form-list__row">
                   <label>Locul livrării</label>
-                  <input type="text" name="" required="" />
+                  <input type="text" name="shipping" required="" />
                 </li>
 
 
@@ -1110,9 +1109,9 @@
                 </li>
               </ul>
             </form>
-          </div> <!-- END: .modal__content -->
-        </div> <!-- END: .modal__container -->
-      </div> <!-- END: .modal -->
+          </div> 
+        </div>
+      </div> 
     </section>
     
     <section class="recipes">
@@ -1209,6 +1208,7 @@
     
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="./src/js/form.js"></script>
     <script src="./src/js/custom.js"></script>
     <script src="./src/js/core.min.js"></script>
     <script src="./src/js/script.js"></script>
