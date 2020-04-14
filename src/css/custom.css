@@ -22,26 +22,52 @@
 
 .card {
   font-family: "Montserrat";
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   float: none;
   margin-bottom: 10px;
   margin-top: 30px;
   list-style-type: circle;
 }
-.recipe{
-  padding: 0;
+.recipe {
+  padding: 10px;
 }
 .info {
   font-family: "Montserrat";
   color: #747474;
 }
-.flex{
+.flex {
   display: flex !important;
+}
+.card-img-top {
+  margin-top: 0 !important;
+}
+.card-body {
+  font-size: 0.75em;
+}
+.card-body ol {
+  padding-left: 20px;
+  text-align: left !important;
+}
+.advantage{
+  width: 33.3%;
 }
 @media (max-width: 27em) {
   header {
     height: 100px !important;
+  }
+}
+@media (max-width: 28em) {
+  .card {
+    width: 90%;
+  }
+}
+@media (max-width: 30em) {
+  .image {
+    display: none !important;
+  }
+  .text {
+    width: 100% !important;
   }
 }
 @media (max-width: 50em) {
@@ -52,11 +78,11 @@
     font-size: 130% !important;
   }
 }
-@media (max-width: 30em) {
-  .image {
-    display: none !important;
-  }
-  .text {
-    width: 100% !important;
+@media (min-width: 768px){
+  
+}
+@media (min-width: 50em) {
+  .card {
+    margin-top: 100px;
   }
 }
