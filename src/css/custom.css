@@ -52,6 +52,9 @@
 .advantage{
   width: 33.3%;
 }
+#nside{
+  display: none;
+}
 @media (max-width: 27em) {
   header {
     height: 100px !important;
@@ -69,6 +72,28 @@
   .text {
     width: 100% !important;
   }
+  .modal__featured{
+    display: none;
+  }
+  #inside{
+    display: block;
+    color: black;
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .modal__content{
+    padding-top: 15px;
+  }
+  .modal__container{
+    width: 80%;
+  }
+  .button--close{
+    color: black;
+    position: relative;
+    left: 0;
+    right: 0;
+    padding: 0;
+  }
 }
 @media (max-width: 50em) {
   .wnd-font-size-180 {
@@ -77,9 +102,6 @@
   h1 {
     font-size: 130% !important;
   }
-}
-@media (min-width: 768px){
-  
 }
 @media (min-width: 50em) {
   .card {
