@@ -2297,7 +2297,7 @@ html [class*="section-"].section-top-0 {
   background-position: center center;
 }
 .bg-image-1 {
-  background-image: url(../img/bg-pattern-1.webp);
+  background-image: url(../img/bg-pattern-1.jpg);
   background-repeat: repeat;
   background-size: auto;
   background-color: #f5f5f5;
@@ -2313,11 +2313,11 @@ html [class*="section-"].section-top-0 {
   background-repeat: no-repeat;
   background-position: 50%;
   background-color: #619f7b;
-  background-image: url(../images/bg-about-1.webp);
+  background-image: url(../images/bg-about-1.jpg);
   z-index: -1;
 }
 .bg-image-3 {
-  background-image: url(../images/bg-pattern-2.webp);
+  background-image: url(../images/bg-pattern-2.jpg);
   background-repeat: repeat;
   background-size: auto;
   background-color: #f5f5f5;
@@ -2340,7 +2340,7 @@ html [class*="section-"].section-top-0 {
   }
 }
 .bg-image-5 {
-  background-image: url(../images/bg-pattern-3.webp);
+  background-image: url(../images/bg-pattern-3.jpg);
   background-repeat: repeat;
   background-size: auto;
   background-color: #404147;
@@ -10643,11 +10643,11 @@ body .mt-02-column .b-text h3 {
   }
   .button-content a[href$=".gif"]:after,
   .button-content a[href$=".jpeg"]:after,
-  .button-content a[href$=".webp"]:after,
+  .button-content a[href$=".jpg"]:after,
   .button-content a[href$=".png"]:after,
   .text-content a[href$=".gif"]:after,
   .text-content a[href$=".jpeg"]:after,
-  .text-content a[href$=".webp"]:after,
+  .text-content a[href$=".jpg"]:after,
   .text-content a[href$=".png"]:after {
     content: " (" attr(href) ") ";
     display: none;
