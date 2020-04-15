@@ -49,20 +49,126 @@
   padding-left: 20px;
   text-align: left !important;
 }
-.advantage{
+.advantage {
   width: 33.3%;
 }
-.page .animated{
+.page .animated {
   animation-duration: 500ms;
 }
-.wd50{
+.wd50 {
   width: 50%;
 }
-#wnd_ImageBlock_93637{
-  margin-left: 0; 
+.padd {
+  padding-bottom: 112.28%;
+  text-align: center;
+}
+.hero-image {
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.wd45 {
+  width: 45.05%;
+}
+.wd54 {
+  width: 54.95%;
+}
+.slicked {
+  width: 635px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 998;
+  opacity: 0;
+  transition: opacity 500ms ease 0s;
+}
+.imageBlock {
+  margin-left: 0;
   margin-right: 0;
 }
-#inside{
+.center-align {
+  padding-bottom: 100%;
+  text-align: center;
+}
+.relative456 {
+  position: relative;
+  height: 456.594px;
+}
+.absolute0 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.absolute349 {
+  position: absolute;
+  left: 349px;
+  top: 0px;
+}
+.absolute698 {
+  position: absolute;
+  left: 698px;
+  top: 0px;
+}
+.absolute228 {
+  position: absolute;
+  left: 0px;
+  top: 228px;
+}
+.absolute349-228 {
+  position: absolute;
+  left: 349px;
+  top: 228px;
+}
+.absolute1047 {
+  position: absolute;
+  left: 1047px;
+  top: 0px;
+}
+.absoulte1047-228 {
+  position: absolute;
+  left: 1047px;
+  top: 228px;
+}
+.mb25 {
+  margin-bottom: 25px;
+}
+.visible {
+  visibility: visible;
+}
+.delay2 {
+  animation-delay: 0.2s;
+}
+.delay3 {
+  animation-delay: 0.3s;
+}
+.inlineBlock {
+  display: inline-block;
+}
+.s_pain_add {
+  background-image: url("../img/bg-image-1.jpg");
+}
+.slick-track {
+  opacity: 1;
+  width: 2540px;
+}
+.addStyle {
+  width: 635px;
+  position: relative;
+  left: -1905px;
+  top: 0px;
+  z-index: 999;
+  opacity: 1;
+}
+.invisible{
+  display: none;
+}
+#wnd_ImageBlock_93637 {
+  margin-left: 0;
+  margin-right: 0;
+}
+#inside {
   display: none;
 }
 @media (max-width: 27em) {
@@ -82,22 +188,22 @@
   .text {
     width: 100% !important;
   }
-  .modal__featured{
+  .modal__featured {
     display: none;
   }
-  #inside{
+  #inside {
     display: block;
     color: black;
     padding-left: 0;
     padding-top: 0;
   }
-  .modal__content{
+  .modal__content {
     padding-top: 15px;
   }
-  .modal__container{
+  .modal__container {
     width: 80%;
   }
-  .button--close{
+  .button--close {
     color: black;
     position: relative;
     left: 0;
